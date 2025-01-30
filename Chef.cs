@@ -2,11 +2,10 @@
 {
     public sealed class Chef: Employee, IAttend
     {
-        public Product PreparingProduct { get; set; }
+        public Product? PreparingProduct { get; set; }
 
         public Chef(string name, int id, string phone, int employeeId): base(name, id, phone, employeeId, "Chef")
         {   
-            this.PreparingProduct = null;
             this.Name = name;
             this.Id = id;
             this.Phone = phone;

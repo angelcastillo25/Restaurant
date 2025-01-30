@@ -16,7 +16,7 @@
 
         public void Attend(Order order)
         {
-            DeliveryOrder orderD = order as DeliveryOrder;  
+            DeliveryOrder? orderD = order as DeliveryOrder;  
 
             Console.WriteLine($"{Name} entregó la orden {order.OrderId} en {orderD.DeliveryAddress}.");
             
