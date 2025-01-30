@@ -6,7 +6,7 @@ namespace RestaurantProject
         public Order Order { get; set; }
         public Client(string name, int id, string phone, Order order) : base(name, id, phone)
         {
-            Order = order;
+            this.Order = order;
         }
 
         public Invoice Pay(decimal monto)

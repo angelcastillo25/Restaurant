@@ -11,11 +11,11 @@ namespace RestaurantProject
 
         public Invoice(Client cliente, decimal amount, Order order)
         {
-            ClienteNombre = cliente.Name;
-            ClienteID = cliente.Id;
-            Amount = amount;
-            Fecha = DateTime.Now;
-            Order = order;
+            this.ClienteNombre = cliente.Name;
+            this.ClienteID = cliente.Id;
+            this.Amount = amount;
+            this.Fecha = DateTime.Now;
+            this.Order = order;
         }
 
         public decimal CalculateTotal()
@@ -39,7 +39,7 @@ namespace RestaurantProject
             {
                 Console.WriteLine($"- {product.Name}: {product.Price:C}");
             }
-            Console.WriteLine($"{this.CalculateTotal:C}");
+            Console.WriteLine($"Total: {this.CalculateTotal():C}");
             Console.WriteLine($"Monto con el que se paga: {Amount:C}");
             Console.WriteLine($"Fecha: {Fecha}");
             Console.WriteLine("-------------------");

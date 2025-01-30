@@ -32,6 +32,7 @@
             Client cliente = new Client("Carlos Pérez", 1, "12345", localOrder);
             Invoice factura = cliente.Pay(250.75m);
             factura.ShowInvoice();
+            Console.WriteLine("-------------------");
 
             // Crear una orden de entrega
             var deliveryOrder = new DeliveryOrder(2, "123 Calle Principal");
@@ -41,11 +42,13 @@
             // Preparar y entregar la orden de entrega
             chef.Attend(deliveryOrder);
             deliveryPerson.Attend(deliveryOrder);
+            Console.WriteLine("------------------------");
 
             // Registrar salida de los empleados
             waiter.RegisterExitTime();
             chef.RegisterExitTime();
             deliveryPerson.RegisterExitTime();
+            Console.WriteLine("------------------------");
         }
     }
 
