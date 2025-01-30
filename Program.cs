@@ -1,0 +1,45 @@
+﻿using RestauranteProject;
+
+class MainProgram
+{
+    static void Main(string[] args)
+    {
+        // Crear productos
+        var product1 = new Product("Pizza", 12.99m, "Plato");
+        var product2 = new Product("Coca Cola", 1.99m, "Bebida");
+        var product3 = new Product("Pastel", 3.50m, "Postre");
+
+        // Crear empleados
+        var waiter = new Waiter("Juan", 1, "123-456", 101);
+        var chef = new Chef("Maria", 2, "987-654", 102);
+        var deliveryPerson = new DeliveryPerson("Carlos", 3, "456-789", 103);
+
+        // Registrar entrada de los empleados
+        waiter.RegisterEntryTime();
+        chef.RegisterEntryTime();
+        deliveryPerson.RegisterEntryTime();
+
+        // Crear una orden local
+        var localOrder = new LocalOrder(1, waiter);
+        localOrder.Products.Add(product1);
+        localOrder.Products.Add(product2);
+
+        // Preparar y servir la orden local
+        chef.PrepareOrder(localOrder);
+        waiter.ServeOrder(localOrder);
+
+        // Crear una orden de entrega
+        var deliveryOrder = new DeliveryOrder(2, "123 Calle Principal");
+        deliveryOrder.Products.Add(product3);
+        deliveryOrder.AssignedDeliveryPerson = deliveryPerson;
+
+        // Preparar y entregar la orden de entrega
+        chef.PrepareOrder(deliveryOrder);
+        deliveryPerson.DeliverOrder(deliveryOrder);
+
+        // Registrar salida de los empleados
+        waiter.RegisterExitTime();
+        chef.RegisterExitTime();
+        deliveryPerson.RegisterExitTime();
+    }
+}
