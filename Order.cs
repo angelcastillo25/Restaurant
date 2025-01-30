@@ -12,15 +12,5 @@ namespace RestaurantProject
             this.Products = new List<Product>();
             this.Status = "Pendiente";
         }
-
-        public decimal CalculateTotal()
-        {
-            decimal total = 0;
-            foreach (var product in Products)
-            {
-                total += product.Price;
-            }
-            return total;
-        }
     }
 }
