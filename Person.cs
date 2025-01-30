@@ -8,9 +8,9 @@
 
         public Person(string name, int id, string phone)
         {
-            Name = name;
-            Id = id;
-            Phone = phone;
+            this.Name = name;
+            this.Id = id;
+            this.Phone = phone;
         }
 
     }
