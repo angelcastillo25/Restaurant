@@ -1,13 +1,17 @@
-﻿abstract class Person
+﻿namespace RestaurantProject
 {
-    public string Name { get; set; }
-    public int Id { get; set; }
-    public string Phone { get; set; }
-
-    public Person(string name, int id, string phone)
+    public abstract class Person
     {
-        Name = name;
-        Id = id;
-        Phone = phone;
+        public string Name { get; set; }
+        public int Id { get; set; }
+        public string Phone { get; set; }
+
+        public Person(string name, int id, string phone)
+        {
+            Name = name;
+            Id = id;
+            Phone = phone;
+        }
+
     }
 }

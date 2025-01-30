@@ -1,26 +1,26 @@
-namespace RestauranteProject
+namespace RestaurantProject
 {
-    abstract class Order
-{
-    public int OrderId { get; set; }
-    public List<Product> Products { get; set; }
-    public string Status { get; set; }
-
-    public Order(int orderId)
+    public abstract class Order
     {
-        OrderId = orderId;
-        Products = new List<Product>();
-        Status = "Pendiente";
-    }
+        public int OrderId { get; set; }
+        public List<Product> Products { get; set; }
+        public string Status { get; set; }  
 
-    public decimal CalculateTotal()
-    {
-        decimal total = 0;
-        foreach (var product in Products)
+        public Order(int orderId)
         {
-            total += product.Price;
+            this.OrderId = orderId;
+            this.Products = new List<Product>();
+            this.Status = "Pendiente";
         }
-        return total;
+
+        public decimal CalculateTotal()
+        {
+            decimal total = 0;
+            foreach (var product in Products)
+            {
+                total += product.Price;
+            }
+            return total;
+        }
     }
-}
 }

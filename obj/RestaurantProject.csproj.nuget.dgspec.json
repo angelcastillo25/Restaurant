@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Source\\Repos\\RestaurantAngel\\RestauranteProject.csproj": {}
+    "C:\\Users\\Usuario\\Source\\Repos\\RestaurantAngel\\RestaurantProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Source\\Repos\\RestaurantAngel\\RestauranteProject.csproj": {
+    "C:\\Users\\Usuario\\Source\\Repos\\RestaurantAngel\\RestaurantProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\RestaurantAngel\\RestauranteProject.csproj",
-        "projectName": "RestauranteProject",
-        "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\RestaurantAngel\\RestauranteProject.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\RestaurantAngel\\RestaurantProject.csproj",
+        "projectName": "RestaurantProject",
+        "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\RestaurantAngel\\RestaurantProject.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\RestaurantAngel\\obj\\",
         "projectStyle": "PackageReference",

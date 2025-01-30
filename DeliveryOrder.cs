@@ -1,13 +1,13 @@
-namespace RestauranteProject
+namespace RestaurantProject
 {
-    class DeliveryOrder : Order
-{
-    public string DeliveryAddress { get; set; }
-    public DeliveryPerson AssignedDeliveryPerson { get; set; }
-
-    public DeliveryOrder(int orderId, string address) : base(orderId)
+    public sealed class DeliveryOrder : Order
     {
-        DeliveryAddress = address;
+        public string DeliveryAddress { get; set; }
+        public DeliveryPerson AssignedDeliveryPerson { get; set; }
+
+        public DeliveryOrder(int orderId, string address) : base(orderId)
+        {
+            this.DeliveryAddress = address;
+        }
     }
-}
 }

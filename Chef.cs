@@ -1,13 +1,21 @@
-﻿using Restaurante;
-
-namespace RestauranteProject
+﻿namespace RestaurantProject
 {
-    public sealed class Chef(string name, int id, string phone, int employeeId) : Employee(name, id, phone, employeeId, "Chef")
-{
-        public void PrepareOrder(Order order)
+    public sealed class Chef: Employee, IAttend
     {
-        Console.WriteLine($"{Name} está preparando la orden {order.OrderId}.");
-        order.Status = "Preparado";
+
+        public Chef(string name, int id, string phone, int employeeId): base(name, id, phone, employeeId, "Chef")
+        {
+            this.Name = name;
+            this.Id = id;
+            this.Phone = phone;
+            this.EmployeeId = employeeId;   
+
+        }
+
+        public void Attend(Order order)
+        {
+            Console.WriteLine($"{Name} está preparando la orden {order.OrderId}.");
+            order.Status = "Preparado";
+        }
     }
-}
 }

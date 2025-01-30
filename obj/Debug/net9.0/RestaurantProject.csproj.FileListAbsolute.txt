@@ -1,0 +1,15 @@
+C:\Users\Usuario\Source\Repos\RestaurantAngel\bin\Debug\net9.0\RestaurantProject.exe
+C:\Users\Usuario\Source\Repos\RestaurantAngel\bin\Debug\net9.0\RestaurantProject.deps.json
+C:\Users\Usuario\Source\Repos\RestaurantAngel\bin\Debug\net9.0\RestaurantProject.runtimeconfig.json
+C:\Users\Usuario\Source\Repos\RestaurantAngel\bin\Debug\net9.0\RestaurantProject.dll
+C:\Users\Usuario\Source\Repos\RestaurantAngel\bin\Debug\net9.0\RestaurantProject.pdb
+C:\Users\Usuario\Source\Repos\RestaurantAngel\obj\Debug\net9.0\RestaurantProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Source\Repos\RestaurantAngel\obj\Debug\net9.0\RestaurantProject.AssemblyInfoInputs.cache
+C:\Users\Usuario\Source\Repos\RestaurantAngel\obj\Debug\net9.0\RestaurantProject.AssemblyInfo.cs
+C:\Users\Usuario\Source\Repos\RestaurantAngel\obj\Debug\net9.0\RestaurantProject.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Source\Repos\RestaurantAngel\obj\Debug\net9.0\RestaurantProject.sourcelink.json
+C:\Users\Usuario\Source\Repos\RestaurantAngel\obj\Debug\net9.0\RestaurantProject.dll
+C:\Users\Usuario\Source\Repos\RestaurantAngel\obj\Debug\net9.0\refint\RestaurantProject.dll
+C:\Users\Usuario\Source\Repos\RestaurantAngel\obj\Debug\net9.0\RestaurantProject.pdb
+C:\Users\Usuario\Source\Repos\RestaurantAngel\obj\Debug\net9.0\RestaurantProject.genruntimeconfig.cache
+C:\Users\Usuario\Source\Repos\RestaurantAngel\obj\Debug\net9.0\ref\RestaurantProject.dll

@@ -8,23 +8,33 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\casti\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\casti\\OneDrive\\Escritorio\\Angel\\industria\\RestauranteProject\\RestauranteProject.csproj",
-      "projectName": "RestauranteProject",
-      "projectPath": "C:\\Users\\casti\\OneDrive\\Escritorio\\Angel\\industria\\RestauranteProject\\RestauranteProject.csproj",
-      "packagesPath": "C:\\Users\\casti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\casti\\OneDrive\\Escritorio\\Angel\\industria\\RestauranteProject\\obj\\",
+      "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\RestaurantAngel\\RestaurantProject.csproj",
+      "projectName": "RestaurantProject",
+      "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\RestaurantAngel\\RestaurantProject.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\RestaurantAngel\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\casti\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",

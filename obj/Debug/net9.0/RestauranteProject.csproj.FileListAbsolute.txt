@@ -12,3 +12,11 @@ C:\Users\casti\OneDrive\Escritorio\Angel\industria\RestauranteProject\obj\Debug\
 C:\Users\casti\OneDrive\Escritorio\Angel\industria\RestauranteProject\obj\Debug\net9.0\RestauranteProject.pdb
 C:\Users\casti\OneDrive\Escritorio\Angel\industria\RestauranteProject\obj\Debug\net9.0\RestauranteProject.genruntimeconfig.cache
 C:\Users\casti\OneDrive\Escritorio\Angel\industria\RestauranteProject\obj\Debug\net9.0\ref\RestauranteProject.dll
+C:\Users\Usuario\Source\Repos\RestaurantAngel\obj\Debug\net9.0\RestauranteProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Source\Repos\RestaurantAngel\obj\Debug\net9.0\RestauranteProject.AssemblyInfoInputs.cache
+C:\Users\Usuario\Source\Repos\RestaurantAngel\obj\Debug\net9.0\RestauranteProject.AssemblyInfo.cs
+C:\Users\Usuario\Source\Repos\RestaurantAngel\obj\Debug\net9.0\RestauranteProject.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Source\Repos\RestaurantAngel\obj\Debug\net9.0\RestauranteProject.sourcelink.json
+C:\Users\Usuario\Source\Repos\RestaurantAngel\obj\Debug\net9.0\RestauranteProject.dll
+C:\Users\Usuario\Source\Repos\RestaurantAngel\obj\Debug\net9.0\refint\RestauranteProject.dll
+C:\Users\Usuario\Source\Repos\RestaurantAngel\obj\Debug\net9.0\RestauranteProject.pdb
