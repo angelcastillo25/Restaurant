@@ -15,7 +15,7 @@
 
         public void RegisterEntryTime()
         {
-            EntryTime = DateTime.Now;
+            this.EntryTime = DateTime.Now;
             Console.WriteLine($"{Name} marcó entrada a las {EntryTime}.");
         }
 

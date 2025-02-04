@@ -30,9 +30,9 @@
 
             //Pagar orden
             Client cliente = new Client("Carlos Pérez", 1, "12345", localOrder);
-            Invoice factura = cliente.Pay(250.75m);
+            Invoice factura = cliente.Pay(100m);
             factura.ShowInvoice();
-            Console.WriteLine("-------------------");
+            Console.WriteLine("----------------------");
 
             // Crear una orden de entrega
             var deliveryOrder = new DeliveryOrder(2, "123 Calle Principal");
@@ -48,7 +48,7 @@
             waiter.RegisterExitTime();
             chef.RegisterExitTime();
             deliveryPerson.RegisterExitTime();
-            Console.WriteLine("------------------------");
+            Console.WriteLine("--------------------------");
         }
     }
 
