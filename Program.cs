@@ -5,9 +5,9 @@
         static void Main(string[] args)
         {
             // Crear productos
-            var product1 = new Product("Pizza", 12.99m, "Plato");
-            var product2 = new Product("Coca Cola", 1.99m, "Bebida");
-            var product3 = new Product("Pastel", 3.50m, "Postre");
+            var product1 = new ProductRecord(new Product("Pizza", 12.99m, "Plato"), 1);
+            var product2 = new ProductRecord(new Product("Coca Cola", 1.99m, "Bebida"),2);
+            var product3 = new ProductRecord(new Product("Pastel", 3.50m, "Postre"),1);
 
             // Crear empleados
             var waiter = new Waiter("Juan", 1, "123-456", 101);

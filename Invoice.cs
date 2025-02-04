@@ -24,7 +24,7 @@ namespace RestaurantProject
             decimal total = 0;
             foreach (var product in Order.Products)
             {
-                total += product.Price;
+                total += product.Product.Price*product.Quantity;
             }
             return total;
         }
@@ -37,7 +37,7 @@ namespace RestaurantProject
             Console.WriteLine($"Productos:");
             foreach (var product in this.Order.Products)
             {
-                Console.WriteLine($"- {product.Name}: {product.Price:C}");
+                Console.WriteLine($"- {product.Product.Name} x{product.Quantity}: {product.Product.Price*product.Quantity:C}");
             }
             Console.WriteLine($"Total: {this.CalculateTotal():C}");
             Console.WriteLine($"Monto con el que se paga: {this.Amount:C}");
